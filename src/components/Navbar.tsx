@@ -1,8 +1,6 @@
 import React from "react";
 
-type Props = {};
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
   return (
     <nav className="flex h-14 items-center justify-between p-3 md:p-5">
       <h1 className="text-primary/90 font-koblenz  text-4xl font-extrabold tracking-wide">
