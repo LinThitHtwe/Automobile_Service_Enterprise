@@ -6,7 +6,7 @@ const Navbar = () => {
       <h1 className="font-koblenz text-4xl  font-extrabold tracking-wide text-primary/90">
         ASE
       </h1>
-      <ul className="mr-6 flex w-auto gap-8 text-base font-[400] backdrop-blur-3xl">
+      <ul className="mr-6 hidden w-auto gap-8 text-base font-[400] backdrop-blur-3xl md:flex">
         <li>
           <span>Home</span>
         </li>

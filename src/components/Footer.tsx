@@ -18,9 +18,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-item-container  pt-0 sm:pt-8 ">
-        <p className="py-2 text-2xl font-bold tracking-wide lg:text-3xl ">
-          Contact Us
-        </p>
+        <p className="footer-item-title py-2  ">Contact Us</p>
         <div className="mt-2 flex flex-col  items-center gap-y-3 md:items-start">
           <div className="flex items-center gap-1 font-medium">
             <svg
@@ -72,7 +70,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-item-container  mb-0  pt-10 sm:mb-10 md:mb-2">
-        <p className="text-2xl font-bold tracking-wide lg:text-3xl ">Socials</p>
+        <p className="footer-item-title ">Socials</p>
         <div className="mt-5 flex flex-col gap-4">
           <div className="flex w-fit cursor-pointer items-center gap-2 font-medium transition-all duration-500 ease-in-out hover:-translate-y-1">
             <svg
@@ -99,9 +97,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-item-container mb-14   pt-10  md:mb-0  ">
-        <p className="text-2xl font-bold tracking-wide lg:text-3xl ">
-          Location
-        </p>
+        <p className="footer-item-title">Location</p>
         <div className="mt-3 flex items-center gap-1 font-medium">
           <svg
             xmlns="http://www.w3.org/2000/svg"
