@@ -3,3 +3,7 @@
 @tailwind utilities;
 
 @import "../../public/fonts/styles.css";
+
+.footer-item-container {
+  @apply z-20 flex flex-col items-center text-white md:block;
+}

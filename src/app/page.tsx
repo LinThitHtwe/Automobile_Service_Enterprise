@@ -6,10 +6,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="m-0 flex h-[200vh] flex-col bg-[#f8f8f8] p-0">
+    <main className="m-0 flex h-[200vh] flex-col overflow-x-hidden bg-[#f8f8f8] p-0">
       <Navbar />
       <HeroSection />
-      {/* <Carousel /> */}
+      <Carousel />
       <Footer />
     </main>
   );

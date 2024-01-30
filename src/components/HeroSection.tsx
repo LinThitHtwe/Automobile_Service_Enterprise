@@ -4,7 +4,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <>
-      <div className="mt-16 flex h-[30rem] p-10">
+      <div className="mt-16 flex h-[73vh] p-10">
         <div className="flex h-full w-full items-center md:w-[50%]">
           <div className="ml-20 mt-14 h-auto">
             <h1 className="mb-6 font-koblenz text-6xl font-extrabold tracking-wider text-primary">
@@ -12,7 +12,7 @@ const HeroSection = () => {
             </h1>
 
             <p className="ml-2 text-2xl font-medium tracking-wide text-gray-600">
-              More than just service. ASE – setting new standards.
+              More than just service. Setting new standards.
             </p>
 
             <p className="px-3 py-1 text-lg font-normal tracking-tight text-gray-600">
