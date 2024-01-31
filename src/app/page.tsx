@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main className="flex h-[200vh] flex-col overflow-x-hidden bg-background">
+    <main className="flex flex-col overflow-x-hidden bg-background">
       {/* <FixeddBackground /> */}
       <Navbar />
       <HeroSection />
