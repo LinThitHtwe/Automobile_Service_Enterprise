@@ -4,6 +4,11 @@
 
 @import "../../public/fonts/styles.css";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .footer-item-container {
   @apply z-20 flex flex-col items-center text-white md:block;
 }
@@ -24,5 +29,9 @@
 }
 
 .hero-section-btn {
-  @apply mt-6 block w-full rounded-xl px-2 py-3 text-center text-lg transition-all duration-300 ease-in-out hover:-translate-y-1 hover:cursor-pointer sm:w-[30%];
+  @apply mt-6 block w-full rounded-xl px-2 py-3 text-center text-lg transition-all duration-300 ease-in-out hover:-translate-y-1 hover:cursor-pointer;
+}
+
+.nav-link-hover {
+  @apply cursor-pointer transition-all duration-500 ease-in-out hover:-translate-y-1 hover:text-primary;
 }

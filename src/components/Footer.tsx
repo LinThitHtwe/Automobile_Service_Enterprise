@@ -3,7 +3,7 @@ import FooterCircularBackgrounds from "./FooterCircularBackgrounds";
 
 const Footer = () => {
   return (
-    <div className="relative grid h-auto grid-cols-1 gap-3 bg-primary sm:grid-cols-2  md:grid-cols-4">
+    <div className="relative grid h-auto  grid-cols-1 gap-3 bg-primary sm:grid-cols-2  md:grid-cols-4">
       <FooterCircularBackgrounds />
       <div
         className="footer-item-container  cursor-default  p-10

@@ -7,16 +7,16 @@ const Navbar = () => {
         ASE
       </h1>
       <ul className="mr-6 hidden w-auto gap-8 text-base font-[400] backdrop-blur-3xl md:flex">
-        <li>
+        <li className="nav-link-hover">
           <span>Home</span>
         </li>
-        <li>
+        <li className="nav-link-hover">
           <span>About Us</span>
         </li>
-        <li>
+        <li className="nav-link-hover">
           <span>Services</span>
         </li>
-        <li>
+        <li className="nav-link-hover">
           <span>Contact Us</span>
         </li>
       </ul>
