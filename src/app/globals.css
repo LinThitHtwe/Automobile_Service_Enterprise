@@ -35,3 +35,19 @@
 .nav-link-hover {
   @apply cursor-pointer transition-all duration-500 ease-in-out hover:-translate-y-1 hover:text-primary;
 }
+
+.about-image-container {
+  @apply max-h-full w-full p-3 md:max-h-96 md:w-1/2;
+}
+
+.about-image {
+  @apply h-full w-full rounded-md object-cover;
+}
+
+.about-wrapper {
+  @apply flex flex-col md:flex-row;
+}
+
+.about-text-wrapper {
+  @apply w-full md:w-1/2 md:px-3 md:py-2;
+}

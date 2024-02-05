@@ -4,6 +4,7 @@ import FixeddBackground from "@/components/FixeddBackground";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
+import OurService from "@/components/OurService";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <HeroSection />
       {/* <Carousel /> */}
       <About />
+      <OurService />
       <Footer />
     </main>
   );
