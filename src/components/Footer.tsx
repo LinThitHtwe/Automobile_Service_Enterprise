@@ -17,7 +17,7 @@ const Footer = () => {
         </p>
       </div>
 
-      <div className="footer-item-container  pt-0 sm:pt-8 ">
+      <div className="footer-item-container  pt-0 sm:pt-8 " id="contact">
         <p className="footer-item-title py-2  ">Contact Us</p>
         <div className="mt-2 flex flex-col  items-center gap-y-3 md:items-start">
           <div className="flex items-center gap-1 font-medium">

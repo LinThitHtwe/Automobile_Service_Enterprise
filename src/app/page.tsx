@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Carousel from "@/components/Carousel";
+import EmailUs from "@/components/EmailUs";
 import FixeddBackground from "@/components/FixeddBackground";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
@@ -15,6 +16,7 @@ export default function Home() {
       {/* <Carousel /> */}
       <About />
       <OurService />
+      <EmailUs />
       <Footer />
     </main>
   );
