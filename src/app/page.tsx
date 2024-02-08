@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Carousel from "@/components/Carousel";
+import CustomerReviews from "@/components/CustomerReviews";
 import EmailUs from "@/components/EmailUs";
 import FixeddBackground from "@/components/FixeddBackground";
 import Footer from "@/components/Footer";
@@ -16,6 +17,7 @@ export default function Home() {
       {/* <Carousel /> */}
       <About />
       <OurService />
+      <CustomerReviews />
       <EmailUs />
       <Footer />
     </main>
