@@ -6,7 +6,7 @@ const Navbar = () => {
   const [shouldNavbarOpen, setShouldNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed left-0 right-0  top-0 z-40 flex h-14 items-center justify-between bg-[#f8f8f8] p-3 backdrop-blur-sm  backdrop-filter md:p-5">
+    <nav className="fixed left-0 right-0  top-0 z-40 flex h-14 items-center justify-between bg-background p-3 backdrop-blur-sm  backdrop-filter md:p-5">
       <h1 className="font-koblenz text-4xl  font-extrabold tracking-wide text-primary/90">
         <a href="/">ASE</a>
       </h1>
@@ -44,7 +44,7 @@ const Navbar = () => {
       <div
         className={`absolute left-0 right-0 top-full h-auto w-full rounded-md rounded-b-lg   bg-clip-padding  px-5 py-3 backdrop-blur-2xl backdrop-filter transition-all duration-500 ease-in-out  ${
           shouldNavbarOpen
-            ? "translate-y-0 bg-white  "
+            ? "translate-y-0 bg-background  "
             : "-z-10 -translate-y-full bg-transparent"
         }`}
       >

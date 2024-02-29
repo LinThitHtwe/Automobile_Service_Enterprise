@@ -14,7 +14,7 @@ const About = () => {
             className="about-image"
           />
         </div>
-        <div className="about-text-wrapper flex flex-col justify-center">
+        <div className="about-text-wrapper mb-12 flex flex-col justify-center md:mb-0">
           <h4 className="px-6 py-2 text-4xl font-bold tracking-tight text-gray-900/90">
             Lorem ipsum dolor sit
           </h4>
@@ -26,12 +26,12 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="about-wrapper md:my-20 ">
-        <div className="about-text-wrapper   order-2 md:order-1">
+      <div className="about-wrapper  md:my-20 ">
+        <div className="about-text-wrapper order-2 flex flex-col  justify-center md:order-1">
           <h4 className="px-6 py-2 text-4xl font-bold tracking-tight text-gray-900/90">
             Lorem ipsum dolor sit
           </h4>
-          <p className="break-words px-6 py-2 text-lg tracking-wide text-gray-600/90">
+          <p className="mb-12 break-words px-6 py-2 text-lg tracking-wide text-gray-600/90 md:mb-0">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
             reiciendis nostrum quisquam iure, ipsum dignissimos error alias
             quis. Eaque deserunt ad maxime voluptate unde suscipit voluptas

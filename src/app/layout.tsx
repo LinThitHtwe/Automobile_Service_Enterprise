@@ -1,6 +1,5 @@
-// Your React component file
-
 import type { Metadata } from "next";
+import Head from "next/head"; // Import the Head component
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -22,8 +21,6 @@ export const metadata: Metadata = {
     "vehicle diagnostics",
     "affordable car repair",
   ],
-
-  // url: "https://www.example.com/ase-auto-service", // Replace with your actual website URL.
 };
 
 export default function RootLayout({

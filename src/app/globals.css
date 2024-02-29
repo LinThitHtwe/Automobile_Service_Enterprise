@@ -19,7 +19,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #ccc;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -55,7 +55,7 @@ html {
 }
 
 .nav-link-hover {
-  @apply cursor-pointer transition-all duration-500 ease-in-out hover:-translate-y-1 hover:text-primary;
+  @apply cursor-pointer text-gray-900/80 transition-all duration-500 ease-in-out hover:-translate-y-1 hover:text-primary;
 }
 
 .about-image-container {

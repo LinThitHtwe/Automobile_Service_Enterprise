@@ -12,7 +12,7 @@ const config: Config = {
         primary: "#F58121",
         secondary: "#F3AE75",
         accent: "#FC9B4C",
-        background: "#f8f8f8",
+        background: "#FCFBFA",
       },
       fontFamily: {
         koblenz: ["KoblenzSerialHeavy", "sans-serif"],
